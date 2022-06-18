@@ -27,12 +27,12 @@ document.onkeyup = function(e) {
 }
 
 //Nested Functions
-function show(e){
+function show(){
     list.classList.toggle("show-menu")
     button.setAttribute("aria-expanded", true)
 }
 
-function hide(e){
+function hide(){
     list.classList.remove("show-menu")
     button.setAttribute("aria-expanded", false)
     button.focus()
